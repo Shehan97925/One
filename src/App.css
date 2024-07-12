@@ -1,0 +1,107 @@
+.loop-gif{
+    
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    background-image: url(./assets/loop.gif);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.home-content{
+    color: white;
+    
+}
+
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    padding-left: 60%;
+    padding-top: 10%;
+}
+.slogan p{
+    margin: 0;
+    font-size: 50px;
+}
+.highlight{
+    color: #4AFF3B;
+}
+.second-content{
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    background-image: url(./assets/hand.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 70px;
+}
+.content-topic{
+    text-align: center;
+    font-size: 30px;
+    color: #4AFF3B;
+}
+
+.content-text1 {
+    text-align: justify;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 1.6; 
+    font-family: 'Arial', sans-serif; 
+    color: #f0f0f0; 
+    background-color: rgb(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(10px); 
+  }
+
+  
+  
+  
+.content-text2 {
+    text-align: justify;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 1.6; /* Adjust line height for readability */
+    font-family: 'Arial', sans-serif; /* Choose a modern font */
+    color: #000000; /* Adjust text color */
+    background-color: rgba(255, 255, 255, 0.5); /* Add a semi-transparent background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.third-content{
+    margin-top: 50px;
+}
+.third-topic{
+    text-align: center;
+    font-size: 30px;
+}
+.fourth-content{
+    background-color:  #CCE6FF;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+.fourth-topic{
+    text-align: center;
+    font-size: 30px; 
+   
+}

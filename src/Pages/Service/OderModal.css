@@ -1,0 +1,82 @@
+.order-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.order-modal h2 {
+    margin-top: 0;
+}
+
+.order-modal label {
+    display: block;
+    margin-top: 10px;
+}
+
+.order-modal textarea,
+.order-modal input[type='file'],
+.order-modal input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.order-modal button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.order-modal button:first-of-type {
+    margin-right: 10px;
+}
+
+
+
+
+.confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirmation-modal h2 {
+    margin-top: 0;
+}
+
+.confirmation-modal p {
+    margin-top: 10px;
+}
+
+.confirmation-modal button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    cursor: pointer;
+}

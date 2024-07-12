@@ -1,0 +1,66 @@
+.graphic-item {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: end;
+    justify-content: flex-end;
+    
+}
+
+.grapic {
+    
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    justify-content: baseline;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grapic button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.grapic button:hover {
+    background-color: #0056b3;
+}
+
+.grapic h3 {
+    margin: 0 auto;
+    /* Center the title horizontally */
+    width: fit-content;
+    /* Make title width fit its content */
+}
+
+.paragraph {
+    text-align: justify;
+    flex-direction: column;
+    margin: auto;
+    justify-content: flex-start;
+    max-width: 50%;
+    padding-right: 200px;
+
+}
+
+.graphic-item {
+    display: flex;
+}
+
