@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import './Join.css';
 import Header from '../../Component/Header/Header';
@@ -12,7 +13,7 @@ function Join() {
         email: '',
         userName: '',
         password: '',
-        confirmPassword: '',
+        // confirmPassword: '',
     });
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
@@ -25,7 +26,7 @@ function Join() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('/register', {
+            const response = await fetch('http://localhost:4000/api/form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
